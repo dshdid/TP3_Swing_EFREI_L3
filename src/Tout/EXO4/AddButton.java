@@ -5,11 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class AddButton extends AbstractAction {
+class AddButton extends AbstractAction {//creer une classe d'action pouvant etre utiliser commr action
 
     private Container c;
     private int number;
-    private Auditeurs audit;
+    private Auditeurs audit;//on créer un paramètre auditeur, qui est la classe contenant
+
 
     AddButton(Container c, String text,Auditeurs audit){
         super(text);

@@ -1,6 +1,6 @@
 package Tout.EXO6.ageIHM;
 
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 public class run6{
 	public static void main(String[] args){
